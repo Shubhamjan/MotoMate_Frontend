@@ -1,0 +1,88 @@
+/* MyProfile.css */
+.profile-container {
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .profile-card {
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .profile-image {
+    background-color: #e9ecef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-img {
+    max-width: 100%;
+    border-radius: 8px;
+    align-items: center;
+  }
+  
+  .card-body {
+    padding: 1.5rem;
+  }
+  
+  .card-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  p {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #242424;
+  }
+  
+  .message {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+    margin-top: 2rem;
+  }
+  
+  .loading {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 2rem;
+  }
+  strong{
+    font-weight: bolder;
+    color: black;
+  }
+
+  .mobile-update-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.mobile-number {
+    margin-top: -600;
+    flex: 1;
+}
+
+.update-button {
+    margin-left: 2px;
+    white-space: nowrap;
+    width: 150px;
+    height: 35px;
+    background-color: #16af28;
+    color: #e9ecef;
+    font-weight: bold;
+}
+.update-button:hover{
+  background-color: #1866ab;
+}
